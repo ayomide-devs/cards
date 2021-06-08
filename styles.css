@@ -1,0 +1,101 @@
+body{
+justify-content: center;
+margin: auto;
+padding: 0;
+height:110vh;
+display: flex;
+align-items: center;
+background-color: #bd2000;
+}
+
+
+ .card{
+  font-family: font-family: 'Roboto Slab', serif;
+  width:340px;
+  overflow:hidden;
+  background-color: #cee5d0;
+  background-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display:flex;
+  flex-direction: column;
+}
+
+  .profile-image img{
+width:120px;
+index:1;
+height:120px;
+position: relative;
+margin-top: -75px;
+margin-left: auto;
+margin-right: auto;
+display:block;
+border-radius: 100px;
+border: 5px solid #39a6a3;
+transition-duration: 0.4s;
+transition-property: transform;
+}
+
+.profile-image img:hover{
+  transform: scale(1:1);
+}
+
+  .card-content h3{
+    font-family: 'Noto Serif', serif;
+    font-size: 1.56rem;
+    text-align: center;
+  color: #bf1363;
+  }
+
+
+  .card-content p{
+    font-size: 1rem;
+    font-family: 'Roboto Slab', serif;
+    text-align: justify;
+    padding: 0 20px 5px 20px;
+    color: #grey;
+
+  }
+
+.icons-image img{
+  width:15px;
+  height:15px;
+  position: relative;
+margin-right: 30px;
+margin-left: 17px;
+  display:inline-block;
+  padding:10px 10px;
+  background-color: #dfeeea;
+  text-align: center;
+}
+
+
+
+
+
+.card-img img{
+  width:100%;
+  height:160px;
+  display: inline;
+}
+
+
+.icons a{
+  text-align: center;
+  font size: 1.25rem;
+  color:#39a6a3;
+  text-decoration: none;
+  padding: 0 10px 100px 15px;
+  transition-duration: 0.4s;
+  transition-property: property;
+  margin-bottom: 20px;
+}
+
+
+.icons{
+  padding-bottom: 20px;
+}
+
+.icons a:hover{
+  color:grey;
+  transform: scale(1:5);
+}
